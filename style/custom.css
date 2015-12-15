@@ -8,12 +8,12 @@
 }
 
 .controls-video{
-    width: 1280px;
-    position: absolute;
-    bottom: 3%;
+  width: 1280px;
+  position: absolute;
+  bottom: 3%;
 }
 
 .video-wrap{
-        display: inline-block;
-        position: relative;
+  display: inline-block;
+  position: relative;
 }
