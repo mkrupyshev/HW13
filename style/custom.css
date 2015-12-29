@@ -1,19 +1,49 @@
-.page-title {
+/*.page-title {
   color: red;
   text-align: center;
+  margin-bottom: 40px;
 }
 
+.buttons {
+  margin-top: 120px
+}
 .btn-primary {
   width: 100px;
 }
 
-.controls-video{
-  width: 1280px;
-  position: absolute;
-  bottom: 3%;
+.btn-primary-anim {
+  width: 130px;
+margin-left: 50px
 }
 
-.video-wrap{
+.controls-video{
+  width: 533px;
+  position: absolute;
+  top: 300px;
+}*/
+
+/*.video-wrap{
   display: inline-block;
-  position: relative;
-}
+  position: absolute;
+  height:300px;
+}*/
+
+/*video {
+  height: 300px;
+}*/
+
+/*.rectangle {
+  height: 300px;
+  width: 150px;
+  background-color: blue;
+  border: solid 2px red;
+  margin-left: 600px;
+}*/
+
+/*.red {
+  background-color: red;
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
+}*/

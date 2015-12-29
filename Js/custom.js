@@ -19,3 +19,43 @@ $(function() {
     }
   })
 })
+
+$(function() {
+$('#animatetada').click(function(){
+  $('.video-wrap').attr("class", "tada animated video-wrap");
+  $('.rectangle').attr("class", "tada animated rectangle red");
+  console.log('clicked')
+})
+})
+
+$(function() {
+$('#animatebounce').click(function(){
+  $('.video-wrap').attr("class", "bounce animated video-wrap");
+  $('.rectangle').attr("class", "bounce animated rectangle red");
+  console.log('clicked')
+})
+})
+
+$(function() {
+$('#animatefadeinl').click(function(){
+  $('.video-wrap').attr("class", "fadeInLeft animated video-wrap");
+  $('.rectangle').attr("class", "fadeInLeft animated rectangle red");
+  console.log('clicked')
+})
+})
+
+$(function() {
+$('#animateflip').click(function(){
+  $('.video-wrap').attr("class", "flip animated video-wrap");
+  $('.rectangle').attr("class", "flip animated rectangle red");
+  console.log('clicked')
+})
+})
+
+$(function() {
+$('#stopanimation').click(function(){
+  $('.video-wrap').attr("class", "video-wrap");
+  $('.rectangle').attr("class", "rectangle");
+  console.log('removed')
+})
+})

@@ -6,15 +6,19 @@
     <link href="style/bootstrap.css" rel="stylesheet">
     <link href="style/bootstrap.min.css" rel="stylesheet">
     <link href="style/font-awesome.min.css" rel="stylesheet">
-    <link href="style/custom.css" rel="stylesheet">
+
+    <link href="style/screen.css" rel="stylesheet">
+    <!-- <link href="style/custom.css" rel="stylesheet"> -->
+    <link href="style/animate.css" rel="stylesheet">
 
     <script src="js/jquery-2.1.4.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+
   </head>
   <body>
-    <h1 class="page-title">HTML5 Video experimenting</h1>
+    <h1 class="page-title">Css animation+jQuery+sass</h1>
     <div class="video-wrap">
       <video muted poster="image/minion.jpg" id="video">
         <source src="video/minion.mp4">
@@ -23,6 +27,14 @@
         <button id="playpause" class="btn btn-primary"><i class="fa fa-play" id="playpauseicon"></i></button>
         <button id="muteunmute" class="btn btn-primary"><i class="fa fa-volume-up" id="muteunmuteicon"></i></button>
       </div>
+    </div>
+    <div id="rectangle" class="rectangle"></div>
+    <div class="buttons">
+      <button id="animatetada" class="btn btn-primary anim">Tada</button>
+      <button id="animatebounce" class="btn btn-primary anim">Bounce</button>
+      <button id="animatefadeinl" class="btn btn-primary anim">Fade In</button>
+      <button id="animateflip" class="btn btn-primary anim">Flip</button>
+      <button id="stopanimation" class="btn btn-warning anim">Clear animation</button>
     </div>
   </body>
 </html>

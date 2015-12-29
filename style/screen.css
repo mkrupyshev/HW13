@@ -1,0 +1,37 @@
+#video {
+  height: 300px; }
+
+#rectangle {
+  height: 300px;
+  width: 150px;
+  background-color: blue;
+  margin-left: 600px; }
+
+.red {
+  background-color: red !important;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  transition: all 3s ease; }
+
+.video-wrap {
+  height: 300px;
+  display: inline-block;
+  position: absolute; }
+
+.page-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: red; }
+
+.buttons {
+  margin-top: 120px; }
+
+.btn-primary {
+  width: 100px; }
+
+.anim {
+  width: 130px;
+  margin-left: 50px; }
+
+/*# sourceMappingURL=screen.css.map */
