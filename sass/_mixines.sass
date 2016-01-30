@@ -1,5 +1,15 @@
-=transition($transition)
+=transition-ease($transition)
   -webkit-transition: $transition
   -moz-transition: $transition
   -ms-transition: $transition
   transition: $transition
+
+=transition-opacity-visibility($opacity, $visibility)
+  -webkit-transition: $opacity, $visibility
+  transition: $opacity, $visibility
+
+// =transition-visibility($visibility)
+//   -webkit-transition: $visibility
+//   -moz-transition: $visibility
+//   -ms-transition: $visibility
+//   transition: $visibility

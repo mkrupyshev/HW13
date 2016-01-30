@@ -9,7 +9,7 @@
 
 .red
   background-color: red !important /*Have no idea why it does not work without importamt*/
-  +transition(all 3s ease)
+  +transition-ease(all 3s ease)
 
 .video-wrap
   height: $v-size
@@ -30,3 +30,30 @@
 .anim
   width: 130px
   margin-left: 50px
+
+.container
+  margin: 0px
+
+.cs-skin-border
+  border-color: #46351D
+  margin-top: 30px
+
+div.cs-skin-border
+  background: #46351D
+  color: #7BB2D9
+  font-weight: 300
+  font-family: Helvetica
+
+.cs-select span
+  padding: 10px
+
+.cs-skin-border.cs-active span
+  background: #fff
+  border-color: #fff
+  color: #646F4B
+
+.cs-skin-border .cs-options
+  color: #646F4B
+  font-size: 0.75em
+  opacity: 0
+  +transition-opacity-visibility(opacity 1s, visibility 1s 1s)
