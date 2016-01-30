@@ -8,10 +8,10 @@
     <link href="style/font-awesome.min.css" rel="stylesheet">
     <link href="style/cs-select.css" rel="stylesheet">
 		<link href="style/cs-skin-border.css" rel="stylesheet">
+    <link href="style/jquery-ui.css" rel="stylesheet">
     <link href="style/screen.css" rel="stylesheet">
     <link href="style/custom.css" rel="stylesheet">
     <link href="style/animate.css" rel="stylesheet">
-
 
 
     <script src="js/jquery-2.1.4.js"></script>
@@ -19,6 +19,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="Js/classie.js"></script>
 		<script src="Js/selectFx.js"></script>
+    <script src="Js/jquery-ui.js"></script>
     <script src="js/custom.js"></script>
 
 
@@ -43,7 +44,7 @@
       <button id="stopanimation" class="btn btn-warning anim">Clear animation</button>
     </div>
     <div class="container">
-			<!-- Top Navigation -->
+			<h2 class="page-subtitle">Selector</h2>
 			<section>
 				<select class="cs-select cs-skin-border">
 					<option value="" disabled selected>Preferred contact method</option>
@@ -52,6 +53,14 @@
 					<option value="facebook">Facebook</option>
 				</select>
 			</section>
+      <section>
+        <h2 class="page-subtitle">Slider</h2>
+          <p>
+            <label for="amount">Price range:</label>
+            <input type="text" id="amount" class="slider">
+          </p>
+          <div id="slider-range"></div>
+      </section>
 			<!-- Related demos -->
 		</div><!-- /container -->
 		<script>
